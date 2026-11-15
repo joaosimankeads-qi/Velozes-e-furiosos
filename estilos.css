@@ -1,0 +1,123 @@
+#cabecalho{
+    width: 100%;  
+    height: 250px;     
+    max-width: 1000px; 
+    margin: 0 auto;
+}
+#cabecalho img{
+    width: 100%;
+    height: 100%;
+    object-position: center 30%;
+}
+#menu{
+    width: 100%;       
+    max-width: 1000px; 
+    margin: 0 auto;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+    background-color:orangered;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 10;
+}    
+#menu a {
+    display: inline-flex; 
+    margin-left: 25px;  
+    margin-right: 25px;
+    line-height: 50px;
+    color: black;
+    font-size: 20px;
+    height: 50px;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-sizing: border-box;
+    transition: background-color 1s ease;
+}
+#menu a:hover {
+  background-color: red;   
+  color: white;       
+}
+.item{
+   display: inline;
+    float: none;
+    width: auto;
+    height: auto;
+}
+#titulo{
+    width: 100%;       
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 70px;
+    background-color:orangered;
+    margin-left: auto;   
+    margin-right: auto; 
+    margin-top: 0;       
+    margin-bottom: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 9;
+}
+#titulo h1 {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 70px;}
+#conteudo{
+    width: 100%;       
+    max-width: 1000px; 
+    margin: 0 auto;
+    font-size: 0%;
+}
+.texto{
+    width: 100%;       
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: justify;
+    background-color: orange;
+    margin-left: auto;   
+    margin-right: auto;
+    margin-top: 0;       
+    margin-bottom: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0; 
+    padding-bottom: 15px;
+}
+.imagem{
+    width: 333.33px;
+    height: 250px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.imagem img{
+    width: 333.33px;
+    height: 250px;
+}
+.velozes2 #menu{
+    background-color: limegreen;
+}
+.velozes2 #titulo{
+    background-color:limegreen;
+}
+.velozes2 .texto{
+    background-color:#33b5e5;
+}
+.velozes2 #menu a:hover {
+  background-color: green;   
+  color: white; 
+}
+.velozes3 .texto{
+    background-color: tomato;
+}
+.velozes3 #menu{ background-color: lightseagreen;}
+.velozes3 #titulo {background-color: lightseagreen ;}
+.velozes3 #menu a:hover {background-color: blue; color: white;}
+body {background-image: url("https://static.vecteezy.com/ti/fotos-gratis/t1/72928951-pneu-marcas-e-oleo-arco-iris-em-asfalto-uma-impressionante-visual-do-acidente-de-meio-ambiente-impacto-e-urbano-textura-apresentando-vivido-cores-e-sujo-detalhes-gratis-foto.jpeg"); background-size: cover; background-attachment: fixed; background-position: center;   background-repeat: no-repeat; margin: 0; 
+    padding: 0; background-color: #111; }
